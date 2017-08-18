@@ -1,0 +1,22 @@
+{
+    "name": "samark/labpackage",
+    "description": "for simple package",
+    "type": "library",
+    "require": {
+        "php": "^7.0",
+        "lib-xsl": "^1.1"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Samark Chaisanguan",
+            "email": "samarkchsngn@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "autoload": {
+        "psr-4": {
+            "HelloWorld\\": "src/"
+        }
+    }
+}
