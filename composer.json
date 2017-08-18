@@ -4,7 +4,8 @@
     "type": "library",
     "require": {
         "php": "^7.0",
-        "lib-xsl": "^1.1"
+        "lib-xsl": "^1.1",
+        "samark/labpackage": "dev-master"
     },
     "license": "MIT",
     "authors": [
@@ -13,7 +14,6 @@
             "email": "samarkchsngn@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "autoload": {
         "psr-4": {
             "HelloWorld\\": "src/"
